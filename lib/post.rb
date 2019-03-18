@@ -1,7 +1,11 @@
 require 'pry'
 
 class Post 
-  attr_accessor :title 
+  attr_accessor :title, :author 
+  
+  def author 
+    Author.new 
+  end 
 end 
 
 # post = Post.new 
