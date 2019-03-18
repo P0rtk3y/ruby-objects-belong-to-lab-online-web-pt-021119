@@ -7,4 +7,4 @@ end
 post = Post.new 
 author = Author.new 
 post.author.name 
-binding.pry
+
